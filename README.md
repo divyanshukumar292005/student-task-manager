@@ -1,16 +1,66 @@
-# React + Vite
+# 🎓 StudyFlow — Student Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A simple and modern student task management web app designed to help you plan, track, and complete your daily tasks.
 
-Currently, two official plugins are available:
+<p align="center">
+  <a href="https://student-task-manager-gray.vercel.app">
+    <strong>🚀 Live Demo</strong>
+  </a>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📌 About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**StudyFlow** is a student-focused task manager built with React and Vite.
 
-## Expanding the ESLint configuration
+It provides a clean workspace where students can add tasks, track pending work, and mark completed tasks.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The project was created to practice modern frontend development, React components, state management, and deployment workflows.
+
+---
+
+## ✨ Features
+
+- ➕ Add new tasks
+- ✅ Mark tasks as completed
+- 🗑️ Delete tasks
+- 📊 Track total, pending, and completed tasks
+- 🎨 Clean dark-themed interface
+- 📱 Responsive layout
+- ⚡ Fast Vite-powered development
+- 🌐 Deployed on Vercel
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| ⚛️ React | Frontend UI |
+| ⚡ Vite | Development & build tool |
+| 🎨 CSS | Styling & responsive design |
+| 🟨 JavaScript | Application logic |
+| 🐙 Git & GitHub | Version control |
+| ▲ Vercel | Deployment |
+
+---
+
+## 📂 Project Structure
+
+```text
+student-task-manager/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+└── README.md
+```
