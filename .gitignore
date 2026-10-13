@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# Backend dependencies and local database
+backend/node_modules/
+backend/tasks.db
