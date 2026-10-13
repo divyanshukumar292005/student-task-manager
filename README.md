@@ -1,66 +1,63 @@
-# 🎓 StudyFlow — Student Task Manager
+StudyFlow - Student Task Manager
 
-> A simple and modern student task management web app designed to help you plan, track, and complete your daily tasks.
+A simple task management web app made for students to manage their daily tasks.
 
-<p align="center">
-  <a href="https://student-task-manager-gray.vercel.app">
-    <strong>🚀 Live Demo</strong>
-  </a>
-</p>
+About
 
----
+StudyFlow helps students keep track of their tasks in one place. Users can add tasks, mark them as completed, undo completed tasks, and delete tasks.
 
-## 📌 About
+I built this project to practise React, backend development, APIs, and database operations.
 
-**StudyFlow** is a student-focused task manager built with React and Vite.
+Features
 
-It provides a clean workspace where students can add tasks, track pending work, and mark completed tasks.
+- Add new tasks
+- Mark tasks as completed
+- Undo completed tasks
+- Delete tasks
+- View total, pending, and completed tasks
+- Save tasks using SQLite
+- Simple and responsive UI
 
-The project was created to practice modern frontend development, React components, state management, and deployment workflows.
+Tech Stack
 
----
+- React
+- Vite
+- JavaScript
+- CSS
+- Node.js
+- Express.js
+- SQLite
+- Git and GitHub
+- Vercel (Frontend)
+- Render (Backend)
 
-## ✨ Features
+Live Demo
 
-- ➕ Add new tasks
-- ✅ Mark tasks as completed
-- 🗑️ Delete tasks
-- 📊 Track total, pending, and completed tasks
-- 🎨 Clean dark-themed interface
-- 📱 Responsive layout
-- ⚡ Fast Vite-powered development
-- 🌐 Deployed on Vercel
+"StudyFlow" (https://student-task-manager-gray.vercel.app)
 
----
+API Endpoints
 
-## 🛠️ Tech Stack
+Method| Endpoint| Purpose
+GET| "/api/tasks"| Get all tasks
+POST| "/api/tasks"| Add a task
+PUT| "/api/tasks/:id"| Update task status
+DELETE| "/api/tasks/:id"| Delete a task
 
-| Technology | Purpose |
-|---|---|
-| ⚛️ React | Frontend UI |
-| ⚡ Vite | Development & build tool |
-| 🎨 CSS | Styling & responsive design |
-| 🟨 JavaScript | Application logic |
-| 🐙 Git & GitHub | Version control |
-| ▲ Vercel | Deployment |
+Run Locally
 
----
+Frontend
 
-## 📂 Project Structure
+npm install
+npm run dev
 
-```text
-student-task-manager/
-│
-├── public/
-├── src/
-│   ├── assets/
-│   ├── App.jsx
-│   ├── App.css
-│   └── main.jsx
-│
-├── .gitignore
-├── index.html
-├── package.json
-├── package-lock.json
-└── README.md
-```
+Backend
+
+cd backend
+npm install
+node server.js
+
+Make sure the frontend API URL points to the correct backend.
+
+Author
+
+Divyanshu Kumar
